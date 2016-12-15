@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Alexander Davis "
+  },
+  "text": {
+    "more": "This network is sorted by degree centrality. It is the full network from 11/2/16-11/8/16 of all public tweets that used the hashtag \"#TRUMPRUSSIA\". The edges are between uthe account that composed the tweet and any accounts they tagged/hashtags they used. Thee #TRUMPRUSSIA node was removed because it would give the graph one large component. ",
+    "intro": "Full network of twitter users who used the hasthag \"#TRUMPRUSSIA\" ",
+    "title": "Trump Russia Full Graph"
+  },
+  "legend": {
+    "edgeLabel": "Connection ",
+    "colorLabel": "Communities ",
+    "nodeLabel": "People "
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
